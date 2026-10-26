@@ -1,0 +1,220 @@
+[
+  {
+    "id": "cpr-adult",
+    "title": "CPR (Adult)",
+    "steps": [
+      "Check responsiveness and verify normal breathing.",
+      "Call emergency services immediately or direct someone nearby to call.",
+      "Place heel of one hand in the center of the chest, interlock the second hand on top.",
+      "Compress chest hard and fast at 100-120 beats per minute, at least 2 inches deep.",
+      "Allow full chest recoil between compressions. Continue until emergency personnel take over or an AED arrives."
+    ],
+    "do": [
+      "Push hard and fast in center of chest",
+      "Send someone for an Automated External Defibrillator (AED) immediately",
+      "Switch rescuers every 2 minutes if tired to maintain depth"
+    ],
+    "dont": [
+      "Do not delay starting compressions to check pulse",
+      "Do not lean on the chest between compressions",
+      "Do not stop compressions for longer than 10 seconds"
+    ],
+    "callEmergencyWhen": "Immediately if the person is unresponsive and not breathing or only gasping."
+  },
+  {
+    "id": "choking",
+    "title": "Choking",
+    "steps": [
+      "Ask 'Are you choking?' and encourage coughing if they can make sounds.",
+      "If unable to speak, cough, or breathe, stand behind them and lean them forward.",
+      "Deliver 5 firm back blows between the shoulder blades with the heel of your hand.",
+      "Give 5 quick abdominal thrusts (Heimlich maneuver) just above the navel.",
+      "Alternate 5 back blows and 5 abdominal thrusts until object clears or person becomes unresponsive."
+    ],
+    "do": [
+      "Encourage forceful coughing if they can cough or breathe",
+      "Support the chest with one hand while delivering back blows",
+      "Start CPR if the person loses consciousness"
+    ],
+    "dont": [
+      "Do not perform abdominal thrusts on infants (use back slaps and chest thrusts)",
+      "Do not blindly sweep the mouth with fingers",
+      "Do not give them water while choking"
+    ],
+    "callEmergencyWhen": "Call immediately if the airway cannot be cleared or the person loses consciousness."
+  },
+  {
+    "id": "severe-bleeding",
+    "title": "Severe Bleeding",
+    "steps": [
+      "Apply direct, continuous firm pressure over the wound using a clean cloth or sterile dressing.",
+      "Maintain pressure without lifting the cloth to check the wound.",
+      "If blood soaks through, add another cloth on top; do not remove original dressing.",
+      "Help the person lie down quietly to reduce shock.",
+      "Secure the dressing firmly with a bandage once bleeding slows."
+    ],
+    "do": [
+      "Maintain firm direct pressure continuously",
+      "Keep the person calm, still, and warm",
+      "Wear protective gloves if available"
+    ],
+    "dont": [
+      "Do not remove embedded objects from a deep wound",
+      "Do not remove saturated dressings",
+      "Do not apply a makeshift tourniquet unless trained and bleeding is uncontrolled life threat"
+    ],
+    "callEmergencyWhen": "Call immediately if blood is spurting, will not stop after 10 minutes of direct pressure, or person shows signs of shock."
+  },
+  {
+    "id": "burns",
+    "title": "Burns",
+    "steps": [
+      "Cool the burn immediately under cool running tap water for at least 10 to 20 minutes.",
+      "Remove jewelry, watches, or constricting items near the burn before swelling begins.",
+      "Cover loosely with sterile, non-adherent dressing or clean plastic wrap.",
+      "Protect the person from becoming chilled while cooling large burns."
+    ],
+    "do": [
+      "Use cool running water (not ice-cold)",
+      "Keep blistered skin intact to prevent infection",
+      "Keep the burn clean and loosely covered"
+    ],
+    "dont": [
+      "Do not apply ice, ice water, butter, oil, or toothpaste to burns",
+      "Do not pop or break any blisters",
+      "Do not peel off clothing stuck to the burnt skin"
+    ],
+    "callEmergencyWhen": "Call immediately for burns larger than the person's palm, electrical/chemical burns, or burns to the face, hands, joints, or airway."
+  },
+  {
+    "id": "fractures-sprains",
+    "title": "Fractures & Sprains",
+    "steps": [
+      "Immobilize the injured limb in the position found; do not try to realign it.",
+      "Apply cold pack wrapped in a cloth for 15-20 minutes to reduce swelling.",
+      "Support the injury using padding, splints, or slings if movement is necessary.",
+      "Elevate the injured limb above heart level only if it does not cause pain."
+    ],
+    "do": [
+      "Keep the injured area completely still and supported",
+      "Apply ice wrapped in a towel, never directly onto bare skin",
+      "Check circulation (warmth, feeling) below the injury regularly"
+    ],
+    "dont": [
+      "Do not attempt to push exposed bone back into the wound",
+      "Do not try to straighten or force an injured limb",
+      "Do not allow the person to walk on an injured leg or foot"
+    ],
+    "callEmergencyWhen": "Call immediately if bone is visible, limb is cold or blue, joint is completely deformed, or severe bleeding is present."
+  },
+  {
+    "id": "fainting",
+    "title": "Fainting",
+    "steps": [
+      "Help the person lie flat on their back on the floor.",
+      "Elevate their legs about 12 inches (30 cm) if there are no spinal or leg injuries.",
+      "Loosen tight collars, belts, or restrictive clothing around the neck and chest.",
+      "Ensure plenty of fresh air and check breathing.",
+      "Keep them lying down for at least 10-15 minutes after regaining consciousness."
+    ],
+    "do": [
+      "Keep them lying flat until fully recovered",
+      "Roll them into recovery position if they vomit or feel nauseated",
+      "Check for normal breathing and responsiveness"
+    ],
+    "dont": [
+      "Do not let them stand up quickly after regaining consciousness",
+      "Do not slap, shake, or splash cold water on their face",
+      "Do not give food or drink while they are semi-conscious"
+    ],
+    "callEmergencyWhen": "Call emergency if they remain unconscious for more than 1 minute, hit their head during the fall, or complain of chest pain or shortness of breath."
+  },
+  {
+    "id": "seizure",
+    "title": "Seizure",
+    "steps": [
+      "Ease the person safely to the floor and clear hard or sharp objects away.",
+      "Place a soft, flat cushion or folded clothing under their head.",
+      "Loosen tight clothing around their neck.",
+      "Note the time the seizure began to monitor its duration.",
+      "Once jerking stops, gently roll them onto their side into the recovery position."
+    ],
+    "do": [
+      "Time the seizure accurately",
+      "Protect head and body from surrounding hazards",
+      "Stay calm and reassure them as they wake up"
+    ],
+    "dont": [
+      "Do not restrain or hold the person down",
+      "Do not put anything inside the person's mouth (they will not swallow their tongue)",
+      "Do not give fluids or pills until fully alert"
+    ],
+    "callEmergencyWhen": "Call immediately if the seizure lasts longer than 5 minutes, repeats without regaining consciousness, occurs in water, or if the person is pregnant or injured."
+  },
+  {
+    "id": "snake-bite",
+    "title": "Snake Bite",
+    "steps": [
+      "Move safely away from the snake to avoid further strikes.",
+      "Keep the person calm, completely still, and lying down to slow venom spread.",
+      "Remove tight jewelry and restrictive clothing from the bitten limb before swelling starts.",
+      "Immobilize the affected limb with a splint at or slightly below heart level.",
+      "Call emergency services or transport to the nearest hospital immediately."
+    ],
+    "do": [
+      "Keep the patient as still and quiet as possible",
+      "Remember the snake's color and pattern from a safe distance if possible",
+      "Apply a clean, dry dressing over the bite wound"
+    ],
+    "dont": [
+      "Do not cut the bite wound or attempt to suck out venom",
+      "Do not apply a tight tourniquet or ice to the bite",
+      "Do not try to capture or kill the snake"
+    ],
+    "callEmergencyWhen": "Call emergency services immediately for all suspected venomous snake bites."
+  },
+  {
+    "id": "heart-attack-signs",
+    "title": "Heart Attack Signs",
+    "steps": [
+      "Recognize warning signs: chest pain, pressure, squeezing, or pain spreading to arm, neck, jaw, or back.",
+      "Call emergency services immediately; do not delay.",
+      "Help the person sit down in a comfortable position, typically half-sitting with knees bent and back supported.",
+      "Loosen tight clothing around neck and waist to ease breathing.",
+      "Stay with the person, monitor breathing, and be prepared to start CPR if they become unresponsive."
+    ],
+    "do": [
+      "Call emergency services at the first sign of chest discomfort",
+      "Keep the person calm and resting comfortably",
+      "Locate the nearest AED if in a public area"
+    ],
+    "dont": [
+      "Do not let the person walk around or exert themselves",
+      "Do not wait to see if symptoms go away on their own",
+      "Do not drive them yourself if an ambulance is available"
+    ],
+    "callEmergencyWhen": "Call emergency immediately at the first suspicion of heart attack symptoms."
+  },
+  {
+    "id": "stroke-signs-fast",
+    "title": "Stroke Signs (FAST)",
+    "steps": [
+      "Check Face: Ask the person to smile. Does one side of the face droop?",
+      "Check Arms: Ask the person to raise both arms. Does one arm drift downward?",
+      "Check Speech: Ask the person to repeat a simple phrase. Is speech slurred or strange?",
+      "Time: If any of these signs are present, call emergency services immediately.",
+      "Keep the person lying flat with head slightly elevated, and monitor breathing until help arrives."
+    ],
+    "do": [
+      "Note the exact time symptoms first appeared",
+      "Keep the patient calm and comfortable",
+      "Turn on their side if they vomit or are drooling"
+    ],
+    "dont": [
+      "Do not give them anything to eat or drink (choking risk)",
+      "Do not give any medication without medical instructions",
+      "Do not let them go to sleep or wait to see if symptoms improve"
+    ],
+    "callEmergencyWhen": "Call emergency services immediately upon seeing any one of the FAST warning signs."
+  }
+]

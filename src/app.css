@@ -1,0 +1,191 @@
+/* App-specific utility styles using theme tokens only */
+
+.screen-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-4);
+  gap: var(--space-2);
+}
+
+.screen-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.profile-card {
+  border-left: var(--space-1) solid var(--color-primary);
+}
+
+.profile-card.active-profile {
+  border-color: var(--color-success);
+  background-color: var(--color-surface);
+  box-shadow: var(--shadow-md);
+}
+
+.card-accent-primary {
+  border-left: var(--space-1) solid var(--color-primary);
+}
+
+.card-accent-danger {
+  border-left: var(--space-1) solid var(--color-danger);
+}
+
+.card-accent-success {
+  border-left: var(--space-1) solid var(--color-success);
+}
+
+.divider-top {
+  border-top: 1px solid var(--color-border);
+  padding-top: var(--space-3);
+  margin-top: var(--space-3);
+}
+
+.profile-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+  gap: var(--space-2);
+  margin: var(--space-3) 0;
+}
+
+.meta-item {
+  font-size: 0.825rem;
+}
+
+.meta-label {
+  color: var(--color-text-muted);
+  font-weight: 500;
+  display: block;
+}
+
+.meta-value {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+.nominee-box {
+  background-color: var(--color-surface-hover);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: var(--space-2) var(--space-3);
+  margin-top: var(--space-2);
+}
+
+.times-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-top: var(--space-2);
+}
+
+.time-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  background-color: var(--color-surface-hover);
+  border: 1px solid var(--color-border);
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius-sm);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.dose-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+}
+
+.dose-info {
+  flex: 1;
+}
+
+.dose-time {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--color-text);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.dose-medicine {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-top: var(--space-1);
+}
+
+.dose-action {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--space-1);
+}
+
+.profile-select-wrapper {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+}
+
+.profile-select-header {
+  font-size: 0.85rem;
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-border);
+  background-color: var(--color-surface);
+  color: var(--color-text);
+  max-width: 9rem;
+}
+
+.alarm-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background-color: var(--color-danger-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-4);
+}
+
+.alarm-card {
+  background-color: var(--color-surface);
+  border: 2px solid var(--color-danger);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  width: 100%;
+  max-width: 32rem;
+  overflow: hidden;
+  animation: pulseAlarm 1.5s infinite ease-in-out;
+}
+
+@keyframes pulseAlarm {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+}
+
+.alarm-header {
+  background-color: var(--color-danger);
+  color: var(--color-text-inverse);
+  padding: var(--space-4);
+  text-align: center;
+}
+
+.alarm-body {
+  padding: var(--space-6);
+}
+
+.message-preview {
+  background-color: var(--color-surface-hover);
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: var(--space-3);
+  font-size: 0.9rem;
+  margin: var(--space-3) 0;
+  white-space: pre-wrap;
+  color: var(--color-text);
+}
